@@ -1,0 +1,32 @@
+---
+#title: "Document Title" # taken from specific documents metadata
+subtitle: 'Datenbanksysteme, Data Engineering'
+subject: 'Datenbanksysteme, Data Engineering'
+mycopyright: '`\copyright 2018 Stefan~Keller. All rights reserved.`{=latex}'
+author: ["Prof. Stefan Keller", "Marcel Huber", "Raphael Das Gupta"]
+institute: ["HSR Hochschule für Technik Rapperswil", "IFS", "Oberseestrasse 10", "CH-8640 Rapperswil"]
+contact: ["T +41 55 222 46 30", "F +41 55 222 46 20", "ifs@hsr.ch", "\\url{https://ifs.hsr.ch}"]
+keywords: [database,sql,postgresql,plpgsql,stored procedure,trigger,views,arrays]
+date: 2017-08-15
+titlepage: True
+documentclass: scrartcl # scrreprt #scrartcl
+disable-fancy-override: False
+lang: de
+otherlangs: [en]
+papersize: a4paper
+mainfont: FreeSerif
+#fontsize: 10pt
+numbersections: False
+toc: False
+classoption: oneside, parskip
+#geometry: margin=30mm,top=30mm,bottom=35mm,centering
+logo: True
+colorlinks: True
+links-as-notes: True
+lof: False
+gitinfo: True
+gitinfo-options:
+  - notags={HEAD}
+link-citations: true
+header-includes:
+---

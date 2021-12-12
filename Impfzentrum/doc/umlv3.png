@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="609px" preserveAspectRatio="none" style="width:674px;height:609px;background:#FFFFFF;" version="1.1" viewBox="0 0 674 609" width="674px" zoomAndPan="magnify"><defs/><g><!--MD5=[41a7ccfbb46c1372610384e17219bedf]
+cluster Impfzentrumsmanagement--><polygon fill="#FFFFFF" points="16,6,233,6,240,28.2969,657,28.2969,657,602,16,602,16,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="240" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="211" x="20" y="20.9951">Impfzentrumsmanagement</text><rect fill="#FEFECE" height="49.25" style="stroke:#A80036;stroke-width:1.5;" width="120" x="54" y="47"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="44" x="92" y="60.1387">person</text><line style="stroke:#A80036;stroke-width:1.5;" x1="55" x2="173" y1="64.9688" y2="64.9688"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="62" y="72.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="87" x="74" y="78.251">vor_name : String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="62" y="84.6094"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="94" x="74" y="89.8916">nach_name : String</text><rect fill="#FEFECE" height="84.1719" style="stroke:#A80036;stroke-width:1.5;" width="139" x="85.5" y="162"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="71" x="119.5" y="175.1387">angestellte</text><line style="stroke:#A80036;stroke-width:1.5;" x1="86.5" x2="223.5" y1="179.9688" y2="179.9688"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="93.5" y="187.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="87" x="105.5" y="193.251">vor_name : String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="93.5" y="199.6094"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="94" x="105.5" y="204.8916">nach_name : String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="93.5" y="211.25"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="106" x="105.5" y="216.5322">idx_ang : Int {unique}</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="93.5" y="222.8906"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="113" x="105.5" y="228.1729">ahvnr : String {unique}</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="93.5" y="234.5313"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="68" x="105.5" y="239.8135">lohn : Decimal</text><rect fill="#FEFECE" height="119.0938" style="stroke:#A80036;stroke-width:1.5;" width="141" x="32.5" y="367"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="45" x="80.5" y="380.1387">patient</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="172.5" y1="384.9688" y2="384.9688"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="392.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="87" x="52.5" y="398.251">vor_name : String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="404.6094"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="94" x="52.5" y="409.8916">nach_name : String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="416.25"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="104" x="52.5" y="421.5322">idx_pat : Int {unique}</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="427.8906"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="102" x="52.5" y="433.1729">versNr : Int {unique}</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="439.5313"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="84" x="52.5" y="444.8135">impfung_1 : Date</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="451.1719"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="115" x="52.5" y="456.4541">dosisID_1 : Int {unique}</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="462.8125"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="84" x="52.5" y="468.0947">impfung_2 : Date</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="474.4531"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="115" x="52.5" y="479.7354">dosisID_2 : Int {unique}</text><rect fill="#FEFECE" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="93" x="214.5" y="41"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="79" x="221.5" y="54.1387">reservierung</text><line style="stroke:#A80036;stroke-width:1.5;" x1="215.5" x2="306.5" y1="58.9688" y2="58.9688"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="222.5" y="66.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="35" x="234.5" y="72.251">idx_pat</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="222.5" y="78.6094"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="65" x="234.5" y="83.8916">datum : Date</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="222.5" y="90.25"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="49" x="234.5" y="95.5322">zeit : Time</text><rect fill="#FEFECE" height="60.8906" style="stroke:#A80036;stroke-width:1.5;" width="138" x="503" y="396"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="97" x="523.5" y="409.1387">impfdosis_lager</text><line style="stroke:#A80036;stroke-width:1.5;" x1="504" x2="640" y1="413.9688" y2="413.9688"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="511" y="421.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="112" x="523" y="427.251">idx_dosis : Int {unique}</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="511" y="433.6094"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="108" x="523" y="438.8916">eingangsdatum : Date</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="511" y="445.25"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="95" x="523" y="450.5322">ablaufdatum : Date</text><rect fill="#FEFECE" height="84.1719" style="stroke:#A80036;stroke-width:1.5;" width="153" x="400.5" y="162"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="102" x="426" y="175.1387">lager_entnahme</text><line style="stroke:#A80036;stroke-width:1.5;" x1="401.5" x2="552.5" y1="179.9688" y2="179.9688"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="408.5" y="187.9688"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="112" x="420.5" y="193.251">idx_dosis : Int {unique}</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="408.5" y="199.6094"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="104" x="420.5" y="204.8916">idx_pat : Int {unique}</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="408.5" y="211.25"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="106" x="420.5" y="216.5322">idx_ang : Int {unique}</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="408.5" y="222.8906"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="127" x="420.5" y="228.1729">entnahme_ts : Timestamp</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="408.5" y="234.5313"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="95" x="420.5" y="239.8135">ablaufdatum : Date</text><path d="M32.5,546 L32.5,586.2656 L335.5,586.2656 L335.5,556 L325.5,546 L32.5,546 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><path d="M325.5,546 L325.5,556 L335.5,556 L325.5,546 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="149" x="38.5" y="563.0669">- versNr. im CH-Format</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="282" x="38.5" y="578.1997">- impfung_2 muss jünger sein als impfung_1</text><path d="M208.5,406.5 L208.5,446.7656 L467.5,446.7656 L467.5,416.5 L457.5,406.5 L208.5,406.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><path d="M457.5,406.5 L457.5,416.5 L467.5,416.5 L457.5,406.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="234" x="214.5" y="423.5669">Eine Impfdosis ist entweder im Lager</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="216" x="218.5" y="438.6997">oder einem Patienten zugewiesen</text><!--MD5=[44b145bd4b0052a528dc8e6c87937b11]
+link nI to impfdosis_lager--><path codeLine="55" d="M467.66,427 C479.79,427 491.73,427 502.96,427 " fill="none" id="nI-impfdosis_lager" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[f19633f1f893298da61314577bfd7376]
+link patient to nV--><path codeLine="61" d="M103,486.07 C103,507.39 103,530.02 103,545.73 " fill="none" id="patient-nV" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[3a29b006b73c66312304ceb55cbaf9b0]
+reverse link person to patient--><path codeLine="63" d="M69.75,116.18 C69.75,116.18 69.75,366.78 69.75,366.78 " fill="none" id="person-backto-patient" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="62.75,116.18,69.75,96.18,76.75,116.18,62.75,116.18" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e6879d49699c90a978d3583c6c9ca4bb]
+reverse link person to angestellte--><path codeLine="64" d="M129.75,116.11 C129.75,116.11 129.75,161.8 129.75,161.8 " fill="none" id="person-backto-angestellte" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="122.75,116.11,129.75,96.11,136.75,116.11,122.75,116.11" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[53647e39f048bebe25e2ccba518e9045]
+link angestellte to patient--><path codeLine="66" d="M129.5,246.11 C129.5,280.25 129.5,328.79 129.5,366.92 " fill="none" id="angestellte-patient" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="86.5,303.0864,89.4389,294.0413,83.5611,294.0413,86.5,303.0864" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="95.5" y="302.5869">impft</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="116.6141" y="266.3903">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="124.2422" y="355.8139">1</text><!--MD5=[8f0f0a47c2fcfa7cc9a6826687f2d23d]
+link lager_entnahme to angestellte--><path codeLine="67" d="M400.28,204 C346.9,204 276.29,204 224.54,204 " fill="none" id="lager_entnahme-angestellte" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="100" x="287.91" y="217.0669">entnimmt dosis</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="385.3833" y="200.3267">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="232.5174" y="200.3267">0..*</text><!--MD5=[5cb6690a790c2be8754b64aa7b77d388]
+link lager_entnahme to impfdosis_lager--><path codeLine="69" d="M528.25,246.11 C528.25,289.83 528.25,357.15 528.25,395.99 " fill="none" id="lager_entnahme-impfdosis_lager" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="388.25" y="317.1169">eintragung entnahme</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="528.0758" y="266.3903">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="509.8047" y="384.7687">1</text><!--MD5=[a1f3226c44b93ce58d0287e57d749745]
+link reservierung to patient--><path codeLine="71" d="M266,102.12 C266,180.46 266,382 266,382 C266,382 217.6,382 173.55,382 " fill="none" id="reservierung-patient" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="204" y="284.3569">reserviert</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="259.3094" y="122.0741">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="181.6268" y="373.9501">1..*</text><!--MD5=[96b377c1aeac607944d8e77b22b31233]
+@startuml
+skinparam linetype ortho
+/'
+ ' skinparam handwritten true
+ '/
+skinparam style strictuml
+
+
+package "Impfzentrumsmanagement" {
+
+        object person {
+                - vor_name : String
+                - nach_name : String
+        }
+        object angestellte {
+                - vor_name : String
+                - nach_name : String
+                - idx_ang : Int {unique}
+                - ahvnr : String {unique}
+                - lohn : Decimal
+        }
+        object patient {
+                - vor_name : String
+                - nach_name : String
+                - idx_pat : Int {unique}
+                - versNr : Int {unique}
+                - impfung_1 : Date
+                - dosisID_1 : Int {unique}
+                - impfung_2 : Date
+                - dosisID_2 : Int {unique}
+        }
+        object reservierung {
+                - idx_pat
+                - datum : Date
+                - zeit : Time
+        }
+        object impfdosis_lager {
+                - idx_dosis : Int {unique}
+                - eingangsdatum : Date
+                - ablaufdatum : Date
+        }
+        object lager_entnahme {
+                - idx_dosis : Int {unique}
+                - idx_pat : Int {unique}
+                - idx_ang : Int {unique}
+                - entnahme_ts : Timestamp
+                - ablaufdatum : Date
+        }
+
+        /'
+         ' note "{disjoint, complete}" as nDC
+         '/
+        note "- versNr. im CH-Format\n- impfung_2 muss jünger sein als impfung_1" as nV
+        note "Eine Impfdosis ist entweder im Lager \n oder einem Patienten zugewiesen" as nI
+
+        nI .right. impfdosis_lager
+
+        /'
+         ' nDC .left. person
+         '/
+
+        nV .up. patient
+
+        patient -up-|> person
+        angestellte -up-|> person
+
+        angestellte "1" - - - "1" patient : impft >
+        angestellte "0..*" -left- - "*" lager_entnahme : entnimmt dosis
+
+        impfdosis_lager "1"-up- -"1" lager_entnahme : eintragung entnahme
+
+        patient "1..*" -up- - - "*" reservierung : reserviert
+        /'
+         ' reservierung "1..*"- - -"*" impfdosis_lager  : dosisreservierung
+         '/
+}
+@enduml
+
+@startuml
+skinparam linetype ortho
+skinparam style strictuml
+
+
+package "Impfzentrumsmanagement" {
+
+        object person {
+                - vor_name : String
+                - nach_name : String
+        }
+        object angestellte {
+                - vor_name : String
+                - nach_name : String
+                - idx_ang : Int {unique}
+                - ahvnr : String {unique}
+                - lohn : Decimal
+        }
+        object patient {
+                - vor_name : String
+                - nach_name : String
+                - idx_pat : Int {unique}
+                - versNr : Int {unique}
+                - impfung_1 : Date
+                - dosisID_1 : Int {unique}
+                - impfung_2 : Date
+                - dosisID_2 : Int {unique}
+        }
+        object reservierung {
+                - idx_pat
+                - datum : Date
+                - zeit : Time
+        }
+        object impfdosis_lager {
+                - idx_dosis : Int {unique}
+                - eingangsdatum : Date
+                - ablaufdatum : Date
+        }
+        object lager_entnahme {
+                - idx_dosis : Int {unique}
+                - idx_pat : Int {unique}
+                - idx_ang : Int {unique}
+                - entnahme_ts : Timestamp
+                - ablaufdatum : Date
+        }
+
+        note "- versNr. im CH-Format\n- impfung_2 muss jünger sein als impfung_1" as nV
+        note "Eine Impfdosis ist entweder im Lager \n oder einem Patienten zugewiesen" as nI
+
+        nI .right. impfdosis_lager
+
+
+        nV .up. patient
+
+        patient -up-|> person
+        angestellte -up-|> person
+
+        angestellte "1" - - - "1" patient : impft >
+        angestellte "0..*" -left- - "*" lager_entnahme : entnimmt dosis
+
+        impfdosis_lager "1"-up- -"1" lager_entnahme : eintragung entnahme
+
+        patient "1..*" -up- - - "*" reservierung : reserviert
+}
+@enduml
+
+PlantUML version 1.2021.14(Fri Nov 12 17:46:50 CET 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

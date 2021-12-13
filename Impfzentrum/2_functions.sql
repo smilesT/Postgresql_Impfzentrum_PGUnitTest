@@ -27,7 +27,8 @@ begin
       scm.patient
     set
       impfdat_1 = new.entnahme_ts,
-      impfdosis_1 = new.id_dosis
+      impfdosis_1 = new.id_dosis,
+      has_impf1 = true
     where
       scm.patient.id_pat = new.id_pat;
   elsif _impfdosis_1 is not null
@@ -36,7 +37,8 @@ begin
         scm.patient
       set
         impfdat_2 = new.entnahme_ts,
-        impfdosis_2 = new.id_dosis
+        impfdosis_2 = new.id_dosis,
+        has_impf2 = true
       where
         scm.patient.id_pat = new.id_pat;
   else

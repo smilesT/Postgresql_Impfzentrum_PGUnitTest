@@ -1,5 +1,5 @@
-insert into scm.angestellte (ahvnr, vor_name, nach_name, lohn)
-  values ('756.1234.5678.97', 'max', 'muster', 950), ('756.1234.5679.96', 'beatrix', 'beispiel', 950), ('756.1234.5579.97', 'carmen', 'specimen', 960), ('756.1111.1111.13', 'adam', 'binerfunden', 950), ('756.1111.1111.20', 'franz', 'fabulos', 950), ('756.1111.1331.22', 'hier', 'koennte', 1001), ('756.1111.1351.26', 'ihre', 'werbung-stehen', 1001);
+insert into scm.angestellte (ahvnr, vor_name, nach_name, lohn, ausb)
+  values ('756.1234.5678.97', 'max', 'muster', 950, 'mpa'), ('756.1234.5679.96', 'beatrix', 'beispiel', 950, 'doc'), ('756.1234.5579.97', 'carmen', 'specimen', 960, 'mpa'), ('756.1111.1111.13', 'adam', 'binerfunden', 950, 'doc'), ('756.1111.1111.20', 'franz', 'fabulos', 950, 'doc'), ('756.1111.1331.22', 'hier', 'koennte', 1001, 'other'), ('756.1111.1351.26', 'ihre', 'werbung-stehen', 1001, 'mpa');
 
 --eine impfung, aber bei anderem impfzentrum, dafuer -1 als impfdosis_1 resp. impfdosis_2
 insert into scm.patient (versnr, vor_name, nach_name, impfdat_1, impfdosis_1)

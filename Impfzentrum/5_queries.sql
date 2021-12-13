@@ -214,3 +214,37 @@ from
       le.id_ang = a.id_ang) as patToAng on true
 order by
   entnahme_ts desc;
+
+-- Testat 4, Aufgabe 4
+--@doc query from indexed table
+--
+select
+  *
+from
+  scm.patient
+where
+  lower(nach_name)
+  like 'chiff%';
+
+-- Aufgabe 5 Tests
+-- Testen Sie mittels INSERT-Statements im Skript "5_queries.sql", ob Sie Daten-Werte eintragen können,
+-- die nicht den Datentypen ENUM und BOOLEAN entsprechen, bzw.
+--@enum test:
+-- insert into scm.angestellte (ahvnr, vor_name, nach_name, lohn, ausb)
+--   values ('756.1111.2222.39', 'dontcare', 'onconstraints', 950, null);
+-- ERROR:  null value in column "ausb" of relation "angestellte" violates not-null constraint
+-- DETAIL:  Failing row contains (1009, 756.1111.2222.39, dontcare, onconstraints, 950.00, null).
+--
+--@boolean test:
+-- insert into scm.patient (versnr, vor_name, nach_name, impfdat_1, impfdosis_1, has_impf1)
+--   values (222999, 'mrs', 'donnoboolean', '2021-11-03'::date, -1, 'sotrue');
+-- ERROR:  invalid input syntax for type boolean: "sotrue"
+-- LINE 2: ...9, 'mrs', 'donnoboolean', '2021-11-03'::date, -1, 'sotrue');
+--
+-- die einen UNIQUE-Constraint verletzten. (Kann auch ein durch einen PK-Constraint implizierter UNIQUE-Constraint sein.)
+-- insert into scm.angestellte (ahvnr, vor_name, nach_name, lohn, ausb)
+--   values ('756.1234.5678.97', 'max', 'muster', 950, 'mpa');
+-- ERROR:  duplicate key value violates unique constraint "angestellte_ahvnr_key"
+-- DETAIL:  Key (ahvnr)=(756.1234.5678.97) already exists.
+--
+-- Dies sollte ja erwartungsgemäss nicht möglich sein. Kommentieren Sie die Tests daher nach den Versuchen aus, so dass ihre Skripte nach wie vor fehlerfrei ausführbar sind.

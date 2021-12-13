@@ -1,0 +1,71 @@
+@startuml
+skinparam linetype ortho
+/'
+ ' skinparam handwritten true
+ '/
+skinparam style strictuml
+
+
+package "Impfzentrumsmanagement" {
+
+        object person {
+                - vor_name : String
+                - nach_name : String
+        }
+        object angestellte {
+                - vor_name : String
+                - nach_name : String
+                - id_ang : Int {unique}
+                - ahvnr : String {unique}
+                - lohn : Decimal
+                - ausb : Enum
+        }
+        object patient {
+                - vor_name : String
+                - nach_name : String
+                - id_pat : Int {unique}
+                - versNr : Int {unique}
+                - impfung_1 : Date
+                - dosisID_1 : Int {unique}
+                - has_impf1 : Boolean
+                - impfung_2 : Date
+                - dosisID_2 : Int {unique}
+                - has_impf2 : Boolean
+        }
+        object reservierung {
+                - id_pat
+                - datum : Date
+                - zeit : Time
+        }
+        object impfdosis_lager {
+                - id_dosis : Int {unique}
+                - eingangsdatum : Date
+                - ablaufdatum : Date
+        }
+        object lager_entnahme {
+                - id_dosis : Int {unique}
+                - id_pat : Int {unique}
+                - id_ang : Int {unique}
+                - entnahme_ts : Timestamp
+                - ablaufdatum : Date
+        }
+
+        note "- versNr. im CH-Format\n- impfung_2 muss jünger sein als impfung_1" as nV
+        note "Eine Impfdosis ist entweder im Lager \n oder einem Patienten zugewiesen" as nI
+
+        nI .right. impfdosis_lager
+
+
+        nV .up. patient
+
+        patient -up-|> person
+        angestellte -up-|> person
+
+        angestellte "1" --- "1" patient : impft >
+        angestellte "0..*" -left-- "*" lager_entnahme : entnimmt dosis
+
+        impfdosis_lager "1"-up--"1" lager_entnahme : eintragung entnahme
+
+        patient "1..*" -up--- "*" reservierung : reserviert
+}
+@enduml

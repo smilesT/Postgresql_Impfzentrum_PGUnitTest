@@ -8,8 +8,8 @@ set client_min_messages = ERROR;
 
 -- Warning about Postgres superuser
 \echo
-\prompt 'ATTENTION! USER POSTGRES MUST BE PRESENT AS SUPERUSER FOR EXTENSION CREATION!! (\\q or Ctrl-C to abort)?' promptvar
-:promptvar \encoding 'auto'
+-- \prompt 'ATTENTION! USER POSTGRES MUST BE PRESENT AS SUPERUSER FOR EXTENSION CREATION!! (\\q or Ctrl-C to abort)?' promptvar
+-- :promptvar \encoding 'auto'
 \set user impfuser
 \set password '\'impfproj\''
 \set database impfproj
@@ -48,20 +48,20 @@ create database :database with owner :user encoding 'UTF8';
 -- create primary keys, constraints, indexes
 \ir 4_constraints.sql
 \echo
-\prompt 'Execute Queries (\\q or Ctrl-C to abort)?' promptvar
-:promptvar
+-- \prompt 'Execute Queries (\\q or Ctrl-C to abort)?' promptvar
+-- :promptvar
 -- set client encoding for query results to auto
 -- > adjust if the detected default is not what you want
 -- valid values are: 'UTF8', 'LATIN1', 'WIN1252'
-\encoding 'auto'
-\set ECHO queries
+-- \encoding 'auto'
+-- \set ECHO queries
 -- query the database
-\ir 5_queries.sql
-\unset ECHO
+-- \ir 5_queries.sql
+-- \unset ECHO
 -- demonstrate constraints in action
-\ir 6_constraints_tests.sql
+-- \ir 6_constraints_tests.sql
 -- some tests to check functin integrity
-\echo
-\prompt 'Execute PGUnit-Tests (\\q or Ctrl-C to abort)?' promptvar
-:promptvar \encoding 'auto'
+-- \echo
+-- \prompt 'Execute PGUnit-Tests (\\q or Ctrl-C to abort)?' promptvar
+-- :promptvar \encoding 'auto'
 \ir 7_function_tests.sql

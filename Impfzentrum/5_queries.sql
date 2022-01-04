@@ -26,7 +26,7 @@ select
   ang.nach_name,
   lagout.id_dosis,
   lagout.entnahme_ts,
-  lag.eingangsdatum,
+  lageingangsdatum,
   lag.ablaufdatum
 from
   scm.lager_entnahme as lagout
@@ -45,6 +45,11 @@ where
       max(lohn)
     from
       scm.angestellte);
+
+select
+  *
+from
+  scm.angestellte;
 
 -- 1.4. Eine Query, die eines der vier folgenden Statements enthält (gegebenenfalls mit NOT davor): ANY, IN, EXISTS oder ALL.
 --@doc alle scm.angestellten die an tag XXXX-YY-ZZ gearbeitet haben. unkorreliert
